@@ -194,14 +194,16 @@ html{
 }
 
 .event1{
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto;
     column-gap: 30px;
     padding-left: 50PX;
     padding-bottom: 20px;
     padding-right: 50px;
 }
 .event2{
-    display: flex;
+  display: grid;
+  grid-template-columns: auto auto;
     column-gap:30px;
     padding-right: 50px;
     padding-left: 50PX;
@@ -289,6 +291,9 @@ html{
   text-align: center;
   font-size: larger;
   padding-bottom: 10px;
+  font-weight: 700;
+  font-family: "Exo";
+  color: #75389f;
 }
 #box1{
   text-align: center;
