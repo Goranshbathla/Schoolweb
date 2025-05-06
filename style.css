@@ -1,0 +1,377 @@
+html{
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: #f7fafe;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .logo-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+  }
+  
+  .logo {
+    height: 60px;
+  }
+  
+  .logo-section h1 {
+    margin: 0;
+    color: black;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+  
+  .logo-section h1 span {
+    font-weight: normal;
+  }
+  
+  .contact-section {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+  }
+  
+  .contact-item {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 14px;
+  }
+  
+  .contact-item .icon {
+    font-size: 18px;
+  }
+  
+  .contact-item a {
+    text-decoration: none;
+    color: black;
+  }
+  body{
+    font-family: "Rubik";
+  }
+  .navbar {
+    background-color: #f3f7fc;
+    border-top: 1px solid #e0e0e0;
+    font-size: 15px;
+    padding-left: 240px;
+    font-weight: lighter;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0 30px;
+    overflow-x: auto;
+  }
+  
+  .navbar li {
+    margin: 0 15px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 20px 0;
+    display: inline-block;
+  }
+  
+  .navbar a:hover{
+    color: #75389f;
+  }
+  
+  
+  
+  .footer {
+    display: flex;
+    background-color: #75389f;
+    column-gap: 150px;
+    align-self: right;
+    margin-top: 30px;
+  }
+  
+  .footer li,
+  h5,
+  h1{
+    color: white;
+    text-align: right;
+    list-style-type: none;
+    padding: 3px;
+    text-decoration: none;
+  }
+  
+  .foot1 li:hover {
+    color: rgba(255, 255, 0, 0.481);
+  }
+.banner {
+    background-image: url(images/banner-pic.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 190px;
+
+}
+
+.play {
+    font-size: 20px;
+    font-family: "Exo";
+}
+
+.things {
+    font-size: 35px;
+    font-family: "Exo";
+    font-weight: bold;
+}
+
+.create {
+    font-size: 45px;
+    font-family: "Exo";
+    font-weight: bold;
+}
+
+.section {
+    padding-top: 140px;
+    padding-left: 150px;
+} 
+.creative{
+    background-color: #f70000;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.creative2{
+    background-color: #a162cb;
+}
+.creative3{
+    background-color: #21994f;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#creative1{
+    padding: 30px;
+    color: white;
+    font-size: 21px;
+    font-family: "Exo";
+    font-weight: bold;
+    text-align: center;
+    padding-left: 50px;
+}
+.para{
+    font-weight: lighter;
+    font-size: 14px;
+   margin-top: -27px;
+   margin-left: -29px;
+   font-family: "Rubik";
+}
+.learn{
+    margin-top: 20px;
+}
+.flex{
+    display: flex;
+    padding-left: 200px;
+    
+    
+}
+#insideschool {
+    text-align: center;
+    color: #223645;
+    font-family: "Exo";
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.event1{
+    display: flex;
+    column-gap: 30px;
+    padding-left: 50PX;
+    padding-bottom: 20px;
+    padding-right: 50px;
+}
+.event2{
+    display: flex;
+    column-gap:30px;
+    padding-right: 50px;
+    padding-left: 50PX;
+}
+#ent1 {
+    display: flex;
+    column-gap: 10px;
+    border: 2px solid;
+    border-color: #75389f;
+}
+#ent2 {
+    display: flex;
+    column-gap: 10px;
+    border: 2px solid;
+    border-color: #75389f;
+}
+#ent3 {
+    display: flex;
+    column-gap: 10px;
+    border: 2px solid;
+    border-color: #75389f;
+}
+#ent4 {
+    display: flex;
+    column-gap: 10px;
+    border: 2px solid;
+    border-color: #75389f;
+}   
+.about{
+    margin-left:80px;
+    margin-right:80px;
+    margin-top:20px;
+    margin-bottom: 40px;
+}
+.prp{
+    margin-left: -50px;
+}
+.scl{
+    margin-left: 530px;
+}
+
+#photo{
+    font-family: "Exo";
+    font-size: 30px;
+    color: #4c4546;
+}
+.graph{
+    font-size: 36px;
+}
+.footer1{
+  text-align: center;
+} 
+.grid2Cols{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.pict1{
+  display: flex;
+  background-color: #75389f;
+  color: white;
+}
+#photo1{
+  font-family: "Exo";
+    font-size: 30px;
+}
+.pict2{
+  padding-top: 30px;
+  padding-left: 30px;
+}
+.row1{
+  display: flex;
+  column-gap: 150px;
+  padding-bottom: 100px;
+  padding-left: 150px;
+  padding-right: 50px;
+}
+.row2{
+  display: flex;
+  column-gap: 150px;
+  padding-left: 150px;
+  padding-right: 50px;
+  padding-bottom: 100px;
+}
+.bxhead{
+  text-align: center;
+  font-size: larger;
+  padding-bottom: 10px;
+}
+#box1{
+  text-align: center;
+  box-shadow: 0px 5px 30px 0px rgb(9 29 62/15%);
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  position: relative;
+  height: 170px;
+  width: 210px;
+  display: grid;
+  
+  background-color: rgb(255,255,255);
+  
+}
+#box2{
+  text-align: center;
+  box-shadow: 0px 5px 30px 0px rgb(9 29 62/15%);
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  position: relative;
+  height: 170px;
+  width: 210px;
+  display: grid;
+  align-content: center;
+  background-color: rgb(255,255,255);
+}
+#box3{
+  text-align: center;
+  box-shadow: 0px 5px 30px 0px rgb(9 29 62/15%);
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  position: relative;
+  height: 170px;
+  width: 210px;
+  display: grid;
+  align-content: center;
+  background-color: rgb(255,255,255);
+}
+#box4{
+  text-align: center;
+  box-shadow: 0px 5px 30px 0px rgb(9 29 62/15%);
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  position: relative;
+  height: 170px;
+  width: 210px;
+  display: grid;
+  align-content: center;
+  background-color: rgb(255,255,255);
+}
+#box5{
+  text-align: center;
+  box-shadow: 0px 5px 30px 0px rgb(9 29 62/15%);
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  position: relative;
+  height: 170px;
+  width: 210px;
+  display: grid;
+  background-color: rgb(255,255,255);
+  align-content: center;
+}
+#box6{
+  text-align: center;
+  box-shadow: 0px 5px 30px 0px rgb(9 29 62/15%);
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  position: relative;
+  height: 170px;
+  width: 210px;
+  display: grid;
+  align-content: center;    
+  background-color: rgb(255,255,255);
+}
